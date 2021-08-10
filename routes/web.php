@@ -16,6 +16,16 @@
 // });
 
 Route::get('/', 'SiteController@index');
-Route::get('/contact', 'SiteController@contact');
-Route::get('/header', 'SiteController@header');
-Route::post('/contact', 'SiteController@contactHandler');
+Route::get('/create-student', 'SiteController@createStudentPage');
+Route::post('//student-data-handler', 'SiteController@studentDataHandler');
+
+
+
+
+
+
+
+
+// Route::get('/contact', 'SiteController@contact');
+// Route::get('/header', 'SiteController@header');
+// Route::post('/contact', 'SiteController@contactHandler');
