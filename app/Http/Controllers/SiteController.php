@@ -15,7 +15,7 @@ class SiteController extends Controller
     public function studentDataHandler(Request $request){
         $rules = [
             'fullName' => 'required|min:5',
-            'mail' => 'required|email',
+            'mailphp' => 'required|email',
         ];
         $this->validate($request, $rules);
         return $request->all();
